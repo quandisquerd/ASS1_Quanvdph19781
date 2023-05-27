@@ -1,0 +1,12 @@
+<p>add-product works!</p>
+
+<form (ngSubmit)="HandleAdd()">
+    <input type="text" [(ngModel)]="product.name" name="name">
+
+    <input type="number" [(ngModel)]="product.price" name="price">
+
+    <input type="text" [(ngModel)]="product.description" name="description">
+
+    <!-- <input type="text" [(ngModel)]="product.name" name="name"> -->
+    <button>Add</button>
+</form>

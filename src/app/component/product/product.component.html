@@ -1,0 +1,8 @@
+<p>product works!</p>
+
+<div class="pro" *ngFor="let product of products">
+    <h1>{{ product.name }}</h1>
+    <h4>{{ product.price}}</h4>
+    <p>{{ product.description}}</p>
+    <button><a href="/product/{{product.id}}">chitiet</a></button>
+</div>
